@@ -1,0 +1,168 @@
+﻿body{
+	background: linear-gradient(to right, #ffffff 0%, #999966 100%); 	 
+    color: black;
+
+}
+
+
+.topnav {
+   background-color: #604020;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+   
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
+
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2; 
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#parkname{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 25px;
+	font-weight: bold;
+	/* text-shadow: 3px 2px gray; */
+	padding-top: -80px;
+}
+ 
+#parkstate{
+font-variant: small-caps;
+font-weight: bold;
+font-size: 18px;
+}
+   
+ #description{
+ 
+ font-style: font-family: "Times New Roman", Times, serif;;
+ font-size: 18px;
+ font-style: oblique;
+ }
+ 
+ p.copyright{
+ font-weight: bold;
+  text-align: left;
+  position:absolute;
+ }
+
+#image{
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#forecasttext{
+	text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    width: 160px;
+    height: 50px;
+   /*  background-color: #008CBA; */
+    background-color:#86592d;;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 60s; 
+    animation-name: example;
+    animation-duration: 60s;
+    border-radius: 12px;
+}
+
+
+@-webkit-keyframes example {
+    from {background-color: #86592d;;}
+    to {background-color: #008CBA;}
+}
+
+
+@keyframes example {
+    from {background-color: #86592d;;}
+    to {background-color: #008CBA;}
+}
+}
+
+.image{
+	padding-top:100px;
+}
+
+.button2{
+	width: 160px;
+    height: 50px;
+    
+}
+
+.button3{
+	width: 160px;
+    height: 50px;
+  
+}
+.button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.button3 {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button3:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#survey{
+font-weight: bold;
+font-size:17px;
+}
